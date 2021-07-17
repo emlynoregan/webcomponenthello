@@ -6,7 +6,7 @@ class HelloWorld extends HTMLElement {
         // create a span element
         const text = document.createElement("span");
 
-        const thing = this.thing();
+        const thing = this.thing;
 
         // set the content to 'Hello World'
         text.textContent = "Hello World - " + thing ? thing : "...no thing...";
